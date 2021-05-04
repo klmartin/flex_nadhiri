@@ -1,0 +1,47 @@
+ :root{
+ 	--main-color:#027581;
+ 	--color-dark: #1D2231;
+ 	--text-grey:#8390A2;
+ }
+ *{
+ 	font-family: 'Poppins', sans-serif;
+ 	margin: 0;
+ 	padding: 0;
+ 	text-decoration: none;
+ 	list-style-type: none;
+ 	box-sizing: border-box;
+ }
+ .dash-title{
+ 	color: var(--color-dark)
+ 	margin-bottom: 1rem;
+ }
+.dash-cards{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 5 reml
+}
+.card-single{
+	background:#fff;
+	border-radius: 7px;
+}
+.card-body{
+	padding: 1rem
+	display: flex;
+	align-items: center;
+}
+.card-body span{
+	font-size: 1.5rem;
+	color: #777;
+	padding-right: 1rem; 
+}
+card-body h5{
+	color:  var(--text-grey);
+	font-size: 1rem;
+
+}
+card-body h4{
+	color:  var(--color-dark);
+	font-size: 1.1rem;
+	margin-top: .5rem;
+	
+}
