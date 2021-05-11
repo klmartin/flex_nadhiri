@@ -36,7 +36,7 @@
                  <span class="iconify" data-icon="emojione-monotone:money-bag" data-inline="false"></span>
 
               </div>
-              <a href="/manage-payments" class="small-box-footer">View All <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="/flex_nadhiri/manage-payments" class="small-box-footer">View All <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -51,7 +51,7 @@
               <div class="icon">
                 <i class="ion ion-person-add"></i>
               </div>
-              <a href="/view-pledges" class="small-box-footer">View All <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="/flex_nadhiri/view-pledges" class="small-box-footer">View All <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
 
@@ -69,7 +69,7 @@
               <div class="icon">
                <span class="iconify" data-icon="bi:people-fill" data-inline="false"></span>
               </div>
-              <a href="/manage-members" class="small-box-footer">View All <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="/flex_nadhiri/manage-members" class="small-box-footer">View All <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -88,8 +88,7 @@
               <div class="card-header border-0">
                 <div class="d-flex justify-content-between">
                   <h3 class="card-title">Members</h3>
-                  <a href="/manage-members">View All</a>
-                  <a href="#"> <span class="iconify" data-icon="bx:bxs-file-pdf" data-inline="false"></span> </a>
+                  <a href="/flex_nadhiri/manage-members">View All</a>
                 </div>
               </div>
               <div  id="users-chart" class="card-body">
@@ -113,8 +112,7 @@
               <div class="card-header border-0">
                 <div class="d-flex justify-content-between">
                   <h3 class="card-title">Payments</h3>
-                  <a href="/manage-payments">View All</a>
-                  <a href="#"> <span class="iconify" data-icon="bx:bxs-file-pdf" data-inline="false"></span> </a>
+                  <a href="/flex_nadhiri/manage-payments">View All</a>
                 </div>
               </div>
               <div  id="pays-chart" class="card-body">

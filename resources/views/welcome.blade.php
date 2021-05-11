@@ -52,7 +52,7 @@
             <h2 class="masthead-subheading mb-0">Grow Your Church or Non Profit Organization</h2>
             <h4 class="masthead-subheading2 mb-0">Attract Donors, Get Financial Insights, Automate Everything While growing Your Impact</h4>
             <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xl rounded-pill mt-5">Join Us Today</a>
-            <a href="#myModal-2" class="btn btn-primary btn-xl rounded-pill mt-5">Log In</a>
+            <a data-toggle="modal" href="#myModal-2" class="btn btn-primary btn-xl rounded-pill mt-5">Log In</a>
         </div>
     </div>
     <div class="bg-circle-1 bg-circle"></div>

@@ -5,8 +5,7 @@
         <div class="col-xl-12">
 <div class="card">
     <div class="card-body">
-        <h5 class="header-title pb-3 mt-0">Member Report {{\Carbon\Carbon::parse($today)->format('d M Y')}} 
-        <a href="{{ URL::to('/download-pdf') }}" class="btn btn-primary a-btn-slide-text movebtn">Save As PDF</a>
+        <h5 class="header-title pb-3 mt-0">Member Report on {{\Carbon\Carbon::parse($today)->format('d M Y')}} 
     	</h5>
         <div class="table-responsive">
             <table class="table table-hover mb-0">

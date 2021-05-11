@@ -9,8 +9,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
   <link href="/css/app.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('/vendor/livewire/livewire.js')}}">
   <livewire:styles/>
-
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="{{asset('css/googlecss.css')}}">
   <!-- Font Awesome Icons -->
@@ -51,23 +52,23 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Left navbar links -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="/admin-dashboard" class="nav-link">Dashboard</a>
+            <a href="/flex_nadhiri/admin-dashboard" class="nav-link">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a href="/manage-members" class="nav-link">Members</a>
+            <a href="/flex_nadhiri/manage-members" class="nav-link">Members</a>
           </li>
            <li class="nav-item">
-            <a href="/view-pledges" class="nav-link">Pledges</a>
+            <a href="/flex_nadhiri/view-pledges" class="nav-link">Pledges</a>
           </li>
           
            <li class="nav-item">
-            <a href="/manage-payments" class="nav-link">Payments</a>
+            <a href="/flex_nadhiri/manage-payments" class="nav-link">Payments</a>
           </li>
            <li class="nav-item">
-            <a href="/manage-events" class="nav-link">Events</a>
+            <a href="/flex_nadhiri/manage-events" class="nav-link">Events</a>
           </li>
            <li class="nav-item">
-            <a href="/make-report" class="nav-link">Reports</a>
+            <a href="/flex_nadhiri/make-report" class="nav-link">Reports</a>
           </li>
 
          <li style="position: absolute;left: 1060px;">
@@ -82,10 +83,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Left navbar links -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="/member-dashboard" class="nav-link">Dashboard</a>
+            <a href="/flex_nadhiri/member-dashboard" class="nav-link">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a href="/member-profile" class="nav-link">Profile</a>
+            <a href="/flex_nadhiri/member-profile" class="nav-link">Profile</a>
           </li>
            <li class="nav-item">
             <a href="#" class="nav-link">Pledges</a>

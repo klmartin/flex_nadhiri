@@ -30,7 +30,7 @@ class Profile extends Component
     	  $this->image->storeAs('profiles', $imageName);
     	  $profile->image = $imageName;
     	  $profile->save();
-    	  session->Flash('message', 'Your Profile Is Succesfully Created!'); 
+    	  session()->Flash('message', 'Your Profile Is Succesfully Created!'); 
     }
 
       public function render()

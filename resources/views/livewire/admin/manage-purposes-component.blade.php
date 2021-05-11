@@ -57,7 +57,7 @@
       <th scope="row"> {{$purps->pname}} </th>
       <td> {{$purps->description}} </td>
       <td> {{$purps->expdate}} </td>
-      <td><button type="button" wire:click.prevent="deletePurposes({{$purps->id}})" class="btn btn-danger">Remove</button></td>
+      <td><button type="button" wire:click.prevent="deletePurposes({{$purps->id}})" class="btn btn-danger"><span class="iconify" data-icon="fluent:delete-20-regular" data-inline="false"></span></button></td>
     </tr>
   @endforeach
   </tbody>

@@ -27,7 +27,7 @@
                                     <div class="leading-5 text-gray-900">{{$events->message}}</div>
                                     <div class="leading-5 text-gray-800">Event Ends at {{\Carbon\Carbon::parse($events->event_end)->format('d M')}}</div>
                                 </td> @if(Auth::user()->role == 'admin')
-                                <td> <a class="btn btn-danger" href="#" onclick="confirm('Are You Sure You Want To Delete This Event?') || event.stopImmediatePropagation()" wire:click.prevent="deleteEvent({{$events->id}})" ><i class="fa fa-trash-o"></i></a></td> @endif
+                                <td> <a class="btn btn-danger" href="#" onclick="confirm('Are You Sure You Want To Delete This Event?') || event.stopImmediatePropagation()" wire:click.prevent="deleteEvent({{$events->id}})" ><span class="iconify" data-icon="fluent:delete-20-regular" data-inline="false"></span></a></td> @endif
 
                             </tr>
 

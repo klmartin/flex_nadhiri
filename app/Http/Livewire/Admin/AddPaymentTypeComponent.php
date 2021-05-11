@@ -3,7 +3,7 @@
 namespace App\Http\Livewire\Admin;
 
 use Livewire\Component;
-use App\Models\payType;
+use App\Models\PayType;
 use Livewire\WithPagination;
 Use Exception;
 
@@ -28,7 +28,7 @@ class AddPaymentTypeComponent extends Component
 
 
 	public function storePayType(){
-		$type = new payType();
+		$type = new PayType();
 		$type->pay_name = $this->pay_name;
 		$type->save();
 		session()->Flash('message', 'The Payment Type Has Been Successfully Added!');
