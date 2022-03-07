@@ -25,7 +25,7 @@ class AddMemberComponent extends Component
 		$mbr->role = 'member';
 		$mbr->email = $this->email;
 		$mbr->phone_no = $this->phone_no;
-		$mbr->password = $this->password;
+		$mbr->password = Hash::make($this->password);
 		$mbr->save();
 		session()->flash('message', 'Member Has Been Added Succesfully');
 
